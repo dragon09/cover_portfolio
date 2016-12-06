@@ -1,7 +1,19 @@
 //jQuery is required to run this code
 $( document ).ready(function() {
-    console.log( "ready!" );
+    console.log( "lol" );
+    $('.parallax').parallax();
+     $("navMenu").load("nav-wrapper.html");
+     $('.grid').masonry({
+       columnWidth: 200
+     });
 });
+
+
+// });
+
+
+
+
 scaleVideoContainer();
 
 
@@ -62,5 +74,5 @@ function scaleBannerVideoSize(element){
 
     });
 
-    
+
 }
